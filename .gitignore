@@ -3,7 +3,7 @@ target
 output
 node_modules
 
-# Editors tmp files.
+# Editors tmp files.target
 *~
 .idea/
 .vscode
