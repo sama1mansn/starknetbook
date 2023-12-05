@@ -9,6 +9,8 @@ function serve_book() {
     # to be translated are extracted.
     MDBOOK_OUTPUT='{"xgettext": {"pot-file": "messages.pot"}}' \
         mdbook build -d po
+# Function section
+function serve_book() {
 
     fix_pot
     # Build available LANGUAGES. po file must exist for the languages listed
